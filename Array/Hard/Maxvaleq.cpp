@@ -2,8 +2,10 @@
 #include<bits/stdc++.h>
 #include<vector>
 using namespace std;
-
-int findmaximum(int arr[][],int k)
+    
+    int r, c;
+    
+int findmaximum(int arr[][c],int k)
 {
    priority_queue<pair<int,int>>pq;
         int ans = INT_MIN;
@@ -27,10 +29,10 @@ int findmaximum(int arr[][],int k)
 }
 int main()
 {
-    int r, c;// 4 2
-    cin >> r >> c;
+    
     int k;
     cin >> k;
+    cin >> r >> c;
     int arr[r][c];
     int ans = findmaximum(arr, k);
     cout << ans << endl;
