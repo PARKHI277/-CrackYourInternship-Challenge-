@@ -1,3 +1,8 @@
+#include<iostream>
+#include<bits/stdc++.h>
+#include<vector>
+using namespace std;
+
 class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k)
