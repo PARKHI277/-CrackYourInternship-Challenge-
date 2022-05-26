@@ -1,3 +1,8 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+#include<vector>
+#include<algorithm>
 int missingNumber(vector<int>& nums) 
     {
         int n  = nums.size();
