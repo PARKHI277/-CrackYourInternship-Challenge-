@@ -7,7 +7,7 @@ using namespace std;
 int maxPoints(vector<vector<int>>& points) 
     {
          int n = points.size();
-        ,
+        
         if(n == 1)
             return 1;
         
